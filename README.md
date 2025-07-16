@@ -1,19 +1,10 @@
-# Heart Disease Prediction Web App
-
-![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
-
-This project is repository.
-
-You can copy and paste this text directly into the `README.md` file on GitHub. Just click the little "pencil" icon to edit the file, paste this content, and save the changes.
-
----
-
 # Heart Disease Prediction Application
 
 This project is an end-to-end machine learning application that predicts the likelihood of a patient having heart disease based on their medical attributes. The final model is deployed as an interactive web application using Streamlit.
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app) 
-*(**Note:** Replace `https://your-app-url.streamlit.app` with your actual deployed Streamlit app URL!)*
+* https://heart-disease-predictor-o7wgyxdm3jx9irfi2kfd7k.streamlit.app/ *
+
 
 ## Table of Contents
 - [Project Objective](#project-objective)
@@ -33,42 +24,9 @@ The application functions as follows:
 2.  The input data is processed and scaled in the same way the model was trained.
 3.  The trained Random Forest model predicts the probability an end-to-end machine learning application that predicts the likelihood of a patient having heart disease based on their medical attributes. The final model is deployed as a user-friendly, interactive web application using Streamlit.
 
-[![Heart Disease Prediction App](https://i.imgur.com/your-screenshot-url.png)](https://your-app-url.streamlit.app/)
-*Click the image above to visit the live application.*
 
 ---
 
-## Table of Contents
-* [Project Objective](#-project-objective)
-* [How It Works](#-how-it-works)
-* [Dataset](#-dataset)
-* [Technical Workflow](#-technical-workflow)
-* [How to Run This Project Locally](#-how-to-run-this-project-locally)
-* [Technologies Used](#-technologies-used)
-* [Project Structure](#-project-structure)
-
----
-
-## Project Objective
-
-The goal of this project is to build a reliable system that can assist healthcare professionals in making faster, more data-driven decisions. By providing a patient's key medical data, the application returns a risk assessment for heart disease, serving as a powerful clinical decision-support tool for early diagnosis and intervention.
-
----
-
-##  How It Works
-
-The web application provides an intuitive interface where a user can input 13 key medical features of a patient.
-
-1.  **User Input:** The user enters the patient's data using the sliders and dropdown menus in the sidebar.
-2.  **Prediction:** Upon clicking the "Predict" button, the data is sent to a pre-trained machine learning model hosted in the cloud.
-3.  **Result:** The model returns a prediction ("Low Risk" or "High Risk") along with a confidence score, which is immediately displayed to the user.
-
----
-
-##  Dataset
-
-This project uses the well-known of the patient having heart disease.
-4.  The application displays the result ("High Risk" or "Low Risk") along with the confidence score.
 
 ##  Dataset
 This project uses the well-known **Heart Disease Dataset** from the UCI Machine Learning Repository.
